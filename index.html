@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+
+        <script src="scripts/react/react.production.min.js"></script>
+        <script src="scripts/react-dom/react-dom.production.min.js"></script>
+        <script src="scripts/react-dom/react-dom-server.browser.production.min.js"></script>
+        <script src="scripts/react-dom/react-dom-unstable-native-dependencies.production.min.js"></script>
+
+        <link href="styles/Draft.css" rel="stylesheet" />
+        <link href="styles/style.css" rel="stylesheet" />
+        <link href="styles/standalone-styles.linaria.css" rel="stylesheet" />
+        <link href="fonts/inter/inter.css" rel="stylesheet" />
+
+        <!-- Workaround for a WebKit bug: loading via URL from the stylesheet is denied if this file is loaded via file:/// -->
+        <style>
+            * {
+                -webkit-font-smoothing: antialiased;
+            }
+
+            html,
+            body,
+            main {
+                height: 100%;
+            }
+
+            @font-face {
+                font-family: "Input Mono";
+                font-style: normal;
+                font-weight: 400;
+                src: local("Input Mono"), url("fonts/QbHJVUjy6YgY.app.ttf") format("truetype");
+            }
+
+            .framerInternalUI-componentPlaceholder,
+            .framerInternalUI-errorPlaceholder {
+                border: calc(1px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1)) dashed currentColor;
+                border-radius: calc(6px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+                font-size: calc(12px * var(--framerInternalCanvas-canvasPlaceholderContentScaleFactor, 1));
+            }
+
+            /* Placeholder for loading components. */
+            .framerInternalUI-componentPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            /* Placeholder for components with errors. */
+            .framerInternalUI-errorPlaceholder {
+                border-style: solid;
+                border-color: rgba(149, 149, 149, 0.15);
+                background-color: rgba(149, 149, 149, 0.1);
+                color: #a5a5a5;
+            }
+
+            .framerInternalUI-componentPlaceholder .text,
+            .framerInternalUI-errorPlaceholder .text {
+                transition: opacity 300ms;
+            }
+
+            .framerInternalUI-componentPlaceholder .pending,
+            .framerInternalUI-errorPlaceholder .pending {
+                opacity: 0;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+        <main></main>
+        
+                        <script type="text/plain" id="__document__">{"version":75,"root":{"duplicatedFrom":null,"parentid":null,"originalid":null,"children":[{"duplicatedFrom":null,"parentid":"LaHhdhvSW","originalid":null,"children":[{"duplicatedFrom":null,"parentid":"Rymv_Jo0b","originalid":null,"children":[{"duplicatedFrom":null,"parentid":"iyVAq_nyg","originalid":null,"children":[],"id":"nlz0Ldqlr","visible":true,"name":"Screenshot_2021_02_16_at_09_56_32","width":231,"height":68,"intrinsicWidth":231,"intrinsicHeight":68,"framePreset":null,"aspectRatio":3.3970588235294117,"constraintsLocked":false,"left":null,"right":77,"top":155,"bottom":null,"centerAnchorX":0.5786026200873364,"centerAnchorY":0.37278106508875763,"widthType":0,"heightType":0,"fillEnabled":true,"fillType":"image","fillColor":"rgba(255,255,255,1)","fillImage":"ie5LM7RFdwH9j51lMat1OPmDE.png","fillImageOriginalName":"Screenshot 2021-02-16 at 09.56.32.png","fillImageResize":"fill","fillImagePixelWidth":462,"fillImagePixelHeight":136,"opacity":1,"rotation":0,"clip":false,"radius":0,"radiusIsRelative":false,"radiusPerCorner":false,"radiusTopLeft":0,"radiusTopRight":0,"radiusBottomRight":0,"radiusBottomLeft":0,"locked":false,"exportOptions":[],"isMaster":false,"isExternalMaster":null,"replicaInfo":null,"codeOverrideEnabled":false,"previewSettings":null,"isTarget":false,"guidesX":[],"guidesY":[],"__class":"FrameNode"},{"duplicatedFrom":["irke_nMSo"],"parentid":"iyVAq_nyg","originalid":null,"children":[],"id":"z2aVeTPuI","visible":true,"name":"dell_xps","width":394,"height":200,"intrinsicWidth":2706,"intrinsicHeight":1373,"framePreset":null,"aspectRatio":1.9708667152221413,"constraintsLocked":false,"left":32,"right":32,"top":null,"bottom":30,"centerAnchorX":0.5000000000000002,"centerAnchorY":0.7435897435897438,"widthType":0,"heightType":0,"fillEnabled":true,"fillType":"image","fillColor":"hsl(221, 68%, 48%)","fillImage":"data:framer/asset-reference,1vikomlnWqFxuvFDalum7zrbI?preferredSize=small","fillImageOriginalName":"dell-xps.png","fillImageResize":"fill","fillImagePixelWidth":5412,"fillImagePixelHeight":2746,"opacity":1,"rotation":0,"clip":false,"radius":0,"radiusIsRelative":false,"radiusPerCorner":false,"radiusTopLeft":0,"radiusTopRight":0,"radiusBottomRight":0,"radiusBottomLeft":0,"locked":false,"exportOptions":[],"isMaster":false,"isExternalMaster":null,"replicaInfo":null,"codeOverrideEnabled":false,"previewSettings":null,"isTarget":false,"guidesX":[],"guidesY":[],"__class":"FrameNode"}],"id":"iyVAq_nyg","visible":true,"name":null,"width":458,"height":479,"intrinsicWidth":null,"intrinsicHeight":null,"framePreset":null,"aspectRatio":null,"constraintsLocked":false,"left":-190,"right":null,"top":312,"bottom":null,"centerAnchorX":0,"centerAnchorY":0,"widthType":0,"heightType":0,"fillEnabled":true,"fillType":"color","fillColor":"hsl(0, 98%, 46%)","fillImage":null,"fillImageOriginalName":null,"fillImageResize":"fill","fillImagePixelWidth":null,"fillImagePixelHeight":null,"opacity":1,"rotation":0,"clip":true,"radius":0,"radiusIsRelative":false,"radiusPerCorner":false,"radiusTopLeft":0,"radiusTopRight":0,"radiusBottomRight":0,"radiusBottomLeft":0,"locked":false,"exportOptions":[],"isMaster":false,"isExternalMaster":null,"replicaInfo":null,"codeOverrideEnabled":false,"previewSettings":null,"isTarget":false,"guidesX":[],"guidesY":[],"onTap":[{"actionIdentifier":"framer/useNavigate","controls":{"animation":{"type":"transition","value":{"damping":60,"delay":0,"ease":[0.44,0,0.56,1],"mass":1,"stiffness":500,"type":"spring"}},"appearsFrom":{"type":"segmentedenum","value":"right"},"backdropColor":{"type":"color","value":"rgba(4,4,15,.4)"},"target":{"type":"componentinstance","value":"UOTuKF0wL"},"transition":{"type":"enum","value":"magicMotion"},"type":{"type":"segmentedenum","value":"next"}},"identifier":"7e0d4078-7476-4a9c-b842-74658c579c35"}],"__class":"FrameNode"},{"duplicatedFrom":["iyVAq_nyg"],"parentid":"Rymv_Jo0b","originalid":null,"children":[{"duplicatedFrom":null,"parentid":"UOTuKF0wL","originalid":null,"children":[],"id":"irke_nMSo","visible":true,"name":"dell_xps","width":394,"height":200,"intrinsicWidth":2706,"intrinsicHeight":1373,"framePreset":null,"aspectRatio":1.9708667152221413,"constraintsLocked":false,"left":32,"right":32,"top":111,"bottom":null,"centerAnchorX":0.5000000000000002,"centerAnchorY":0.4161735700197241,"widthType":0,"heightType":0,"fillEnabled":true,"fillType":"image","fillColor":"rgba(255,255,255,1)","fillImage":"data:framer/asset-reference,1vikomlnWqFxuvFDalum7zrbI?preferredSize=small","fillImageOriginalName":"dell-xps.png","fillImageResize":"fill","fillImagePixelWidth":5412,"fillImagePixelHeight":2746,"opacity":1,"rotation":0,"clip":false,"radius":0,"radiusIsRelative":false,"radiusPerCorner":false,"radiusTopLeft":0,"radiusTopRight":0,"radiusBottomRight":0,"radiusBottomLeft":0,"locked":false,"exportOptions":[],"isMaster":false,"isExternalMaster":null,"replicaInfo":null,"codeOverrideEnabled":false,"previewSettings":null,"isTarget":false,"guidesX":[],"guidesY":[],"__class":"FrameNode"}],"id":"UOTuKF0wL","visible":true,"name":null,"width":458,"height":507,"intrinsicWidth":null,"intrinsicHeight":null,"framePreset":null,"aspectRatio":null,"constraintsLocked":false,"left":558,"right":null,"top":0,"bottom":null,"centerAnchorX":0,"centerAnchorY":0,"widthType":0,"heightType":0,"fillEnabled":true,"fillType":"color","fillColor":"white","fillImage":null,"fillImageOriginalName":null,"fillImageResize":"fill","fillImagePixelWidth":null,"fillImagePixelHeight":null,"opacity":1,"rotation":0,"clip":true,"radius":0,"radiusIsRelative":false,"radiusPerCorner":false,"radiusTopLeft":0,"radiusTopRight":0,"radiusBottomRight":0,"radiusBottomLeft":0,"locked":false,"exportOptions":[],"isMaster":false,"isExternalMaster":null,"replicaInfo":null,"codeOverrideEnabled":false,"previewSettings":null,"isTarget":false,"guidesX":[],"guidesY":[],"__class":"FrameNode"}],"id":"Rymv_Jo0b","visible":false,"name":"Page 1","homeNodeId":"iyVAq_nyg","guidesX":[],"guidesY":[],"__class":"PageNode"}],"id":"LaHhdhvSW","visible":false,"name":null,"tokens":{},"disableBackdropFilters":true,"__class":"RootNode","tokensIndex":[]}}</script>
+                        <script type="text/plain" id="__node_id__">iyVAq_nyg</script>
+                        <script type="text/plain" id="__scripts_index__">!function(e,r){if("object"==typeof exports&&"object"==typeof module)module.exports=r(function(){try{return require("framer")}catch(e){}}());else if("function"==typeof define&&define.amd)define(["framer"],r);else{var t="object"==typeof exports?r(function(){try{return require("framer")}catch(e){}}()):r(e.Framer);for(var n in t)("object"==typeof exports?exports:e)[n]=t[n]}}(window,(function(__WEBPACK_EXTERNAL_MODULE_framer__){return function(modules){function webpackJsonpCallback(e){for(var r,t,n=e[0],o=e[1],a=e[2],s=0,c=[];s<n.length;s++)t=n[s],Object.prototype.hasOwnProperty.call(installedChunks,t)&&installedChunks[t]&&c.push(installedChunks[t][0]),installedChunks[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(modules[r]=o[r]);for(parentJsonpFunction&&parentJsonpFunction(e);c.length;)c.shift()();return deferredModules.push.apply(deferredModules,a||[]),checkDeferredModules()}function checkDeferredModules(){for(var e,r=0;r<deferredModules.length;r++){for(var t=deferredModules[r],n=!0,o=1;o<t.length;o++){var a=t[o];0!==installedChunks[a]&&(n=!1)}n&&(deferredModules.splice(r--,1),e=__webpack_require__(__webpack_require__.s=t[0]))}return e}var installedModules={},installedChunks={main:0},deferredModules=[];function __webpack_require__(e){if(installedModules[e])return installedModules[e].exports;var r=installedModules[e]={i:e,l:!1,exports:{}};try{modules[e].call(r.exports,r,r.exports,__webpack_require__)}catch(e){r.exports={error:e}}return r.l=!0,r.exports}__webpack_require__.m=modules,__webpack_require__.c=installedModules,__webpack_require__.d=function(e,r,t){__webpack_require__.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.t=function(e,r){if(1&r&&(e=__webpack_require__(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(__webpack_require__.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)__webpack_require__.d(t,n,function(r){return e[r]}.bind(null,n));return t},__webpack_require__.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(r,"a",r),r},__webpack_require__.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},__webpack_require__.p="";var __module_i=eval("typeof module !== 'undefined' ? module.i : ''"),__framer_package=(/(node_modules\/.*)\/(?:build|dist)\/index\.js$/.exec(__module_i)||[])[1];function __asset_url__(e){return __WEBPACK_EXTERNAL_MODULE_framer__.serverURL(__framer_package,e)}installedModules["framer/resource"]={i:"framer/resource",l:!0,exports:{url:__asset_url__}};var jsonpArray=window.webpackJsonp=window.webpackJsonp||[],oldJsonpFunction=jsonpArray.push.bind(jsonpArray);jsonpArray.push=webpackJsonpCallback,jsonpArray=jsonpArray.slice();for(var i=0;i<jsonpArray.length;i++)webpackJsonpCallback(jsonpArray[i]);var parentJsonpFunction=oldJsonpFunction;return deferredModules.push(["./entry.js","vendors~main"]),checkDeferredModules()}({"./code sync recursive \\.(t|j)s(x?)|\\.css$":function(e,r){function t(e){var r=new Error("Cannot find module '"+e+"'");throw r.code="MODULE_NOT_FOUND",r}t.keys=function(){return[]},t.resolve=t,e.exports=t,t.id="./code sync recursive \\.(t|j)s(x?)|\\.css$"},"./entry.js":function(e,r,t){const n={packageJson:t("./package.json"),sourceModules:{},dependencies:{}};try{const e=t("./code sync recursive \\.(t|j)s(x?)|\\.css$");e.keys().forEach(r=>{n.sourceModules[r]=()=>e(r)})}catch(e){}const o={framer:()=>{var e,r={};try{r=t("framer"),e=t("./designDependencies.js").framer}catch(e){console.log(e)}return r.__framer__=r.__framer__||{},r.__framer__.packageJson={name:"framer",version:"1.2.24-alpha.0+ac79f80",main:"build/framer.js",author:"Framer",license:"MIT",scripts:{coverage:"yarn :jest --coverage",lint:"yarn :eslint ./src --ext .ts,.tsx --format codeframe --quiet","lint:fix":"yarn lint --fix",test:"yarn :jest",watch:"yarn :jest --watch"},devDependencies:{"@emotion/is-prop-valid":"^0.8.2","@microsoft/api-extractor":"7.7.8","@testing-library/jest-dom":"^5.1.1","@testing-library/react":"^9.4.0","@testing-library/react-hooks":"^3.2.1","@types/chalk":"2.2.0","@types/css-font-loading-module":"^0.0.4","@types/draft-js":"0.10.38","@types/enzyme":"3.1.10","@types/enzyme-adapter-react-16":"1.0.3","@types/google.fonts":"1.0.2","@types/hsluv":"https://github.com/framer/typed_hsluv#bump","@types/jest":"25.2.1","@types/node":"^12.12.12","@types/react":"16.9.19","@types/react-dom":"16.9.6","@types/yargs":"^15.0.5","@typescript-eslint/eslint-plugin":"^4.10.0","@typescript-eslint/parser":"^4.10.0","cache-loader":"^1.2.2",chalk:"^2.4.1","convert-tsconfig-paths-to-webpack-aliases":"^0.9.2","css.escape":"^1.5.1","draft-js":"0.11.3",enzyme:"^3.9.0","enzyme-adapter-react-16":"^1.9.1",eslint:"^6.8.0",eventemitter3:"^3.1.0",fontfaceobserver:"^2.1.0","fork-ts-checker-webpack-plugin":"^6.0.8","framer-motion":"3.4.0-rc.3","hoist-non-react-statics":"^2.5.0",hsluv:"^0.0.3",immutable:"^3.8.2","jest-diff":"^25.5.0","jest-junit":"^10.0.0",modclean:"^3.0.0-beta.1","progress-bar-webpack-plugin":"^1.11.0",raf:"^3.4.0",react:"^16.14.0","react-dev-utils":"^5.0.1","react-dom":"^16.12.0","react-test-renderer":"16","react-testing-library":"^6.0.0","resize-observer-polyfill":"^1.5.1",semver:"^5.6.0","style-value-types":"^4.0.1","terser-webpack-plugin":"^1.3.0","ts-loader":"^4.1.0",typescript:"^4.1",watch:"^1.0.2",webpack:"^4.43.0","webpack-cli":"^3.1.2","webpack-dev-server":"^3.1.10",yargs:"^15.3.1"},peerDependencies:{react:"^16.12.0","react-dom":"^16.12.0"},tsdoc:{tsdocFlavor:"AEDoc"},framer:{components:[{name:"Scroll",children:!0,properties:[{key:"direction",title:"Direction",kind:"enum",options:["horizontal","vertical","both"]}]},{name:"Page"}]}},r.__framer__.packageJson.design=e,r}};n.dependencies=o,r.__framer__=n},"./package.json":function(e){e.exports=JSON.parse('{"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.8"},"peerDependencies":{"framer":"^1.0","react":"^16.8"},"framer":{"id":"ed91ffea-ecb6-42d6-a1b1-a40300bbcdda"},"author":"Niels van Hoorn"}')},framer:function(e,r){if(void 0===__WEBPACK_EXTERNAL_MODULE_framer__){var t=new Error("Cannot find module 'undefined'");throw t.code="MODULE_NOT_FOUND",t}e.exports=__WEBPACK_EXTERNAL_MODULE_framer__}})}));</script>
+                        <script type="text/plain" id="__scripts_vendors__">(window.webpackJsonp=window.webpackJsonp||[]).push([["vendors~main"],{"./designDependencies.js":function(n,e){n.exports={}}}]);</script>
+                        <script type="text/plain" id="__modules__">{"data":[]}</script>
+                    
+        <script src="scripts/standalone.js" type="text/javascript"></script>
+    </body>
+</html>
